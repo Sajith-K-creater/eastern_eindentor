@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include eastern_eindentor *.css
+recursive-include eastern_eindentor *.csv
+recursive-include eastern_eindentor *.html
+recursive-include eastern_eindentor *.ico
+recursive-include eastern_eindentor *.js
+recursive-include eastern_eindentor *.json
+recursive-include eastern_eindentor *.md
+recursive-include eastern_eindentor *.png
+recursive-include eastern_eindentor *.py
+recursive-include eastern_eindentor *.svg
+recursive-include eastern_eindentor *.txt
+recursive-exclude eastern_eindentor *.pyc
