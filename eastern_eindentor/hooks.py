@@ -8,7 +8,13 @@ app_icon = "octicon octicon-file-directory"
 app_color = "grey"
 app_email = "info@ideenkreisetech.com"
 app_license = "MIT"
+app_logo_url = "/assets/eastern_eindentor/images/eindentor-logo.png"
+brand_html = '<img src="/assets/eastern_eindentor/images/eindentor-logo.png" style="height:30px;width:30px">&nbsp&nbsp<b>E-Indentor</b>'
 
+website_context = {
+    "favicon": "/assets/eastern_eindentor/images/eindentor-logo.png",
+	"splash_image": "/assets/eastern_eindentor/images/eindentor-logo.png"
+}
 # Includes in <head>
 # ------------------
 
@@ -96,6 +102,8 @@ app_license = "MIT"
 # 		"on_trash": "method"
 #	}
 # }
+
+
 
 # Scheduled Tasks
 # ---------------

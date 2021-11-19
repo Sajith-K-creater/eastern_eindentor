@@ -1,0 +1,131 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:carrier_name",
+ "creation": "2021-10-08 11:57:25.290951",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "carrier_name",
+  "location_mentioned_in_oracle",
+  "column_break_3",
+  "supplier_type",
+  "service_type",
+  "section_break_6",
+  "payment_term_offered_to_ecpl",
+  "purpose_of_adding_vendor",
+  "document_status"
+ ],
+ "fields": [
+  {
+   "fieldname": "carrier_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Carrier Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "supplier_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Supplier Type",
+   "options": "Service\nSupply",
+   "reqd": 1
+  },
+  {
+   "fieldname": "location_mentioned_in_oracle",
+   "fieldtype": "Data",
+   "label": "Location mentioned in Oracle"
+  },
+  {
+   "fieldname": "payment_term_offered_to_ecpl",
+   "fieldtype": "Text",
+   "label": "Payment Term offered to ECPL"
+  },
+  {
+   "fieldname": "purpose_of_adding_vendor",
+   "fieldtype": "Text",
+   "in_list_view": 1,
+   "label": "Purpose of adding Vendor",
+   "reqd": 1
+  },
+  {
+   "fieldname": "service_type",
+   "fieldtype": "Select",
+   "label": "Service Type",
+   "options": "One Time\nContinuous",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "document_status",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Document Status"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-10-08 14:46:05.313451",
+ "modified_by": "Administrator",
+ "module": "Eastern Eindentor",
+ "name": "Carrier Appointment",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "if_owner": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Manager Transportation",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Head Logistics",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "DGM Finance",
+   "share": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

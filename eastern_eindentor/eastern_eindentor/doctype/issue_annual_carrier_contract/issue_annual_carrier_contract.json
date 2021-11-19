@@ -1,0 +1,122 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:contract_name",
+ "creation": "2021-10-08 16:59:41.175186",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "contract_name",
+  "carrier_name",
+  "column_break_3",
+  "period_from",
+  "period_to",
+  "amount_section",
+  "amount",
+  "column_break_4",
+  "previous_year_amount",
+  "difference_",
+  "document_status"
+ ],
+ "fields": [
+  {
+   "fieldname": "contract_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Contract Name",
+   "permlevel": 1,
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "carrier_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Carrier name",
+   "options": "Carrier Appointment",
+   "permlevel": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "period_to",
+   "fieldtype": "Date",
+   "label": "Period To",
+   "permlevel": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "period_from",
+   "fieldtype": "Date",
+   "label": "Period From",
+   "permlevel": 1,
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "label": "Amount",
+   "permlevel": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amount_section",
+   "fieldtype": "Section Break",
+   "label": "Amount"
+  },
+  {
+   "default": "0",
+   "fieldname": "difference_",
+   "fieldtype": "Percent",
+   "label": "Difference %",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "previous_year_amount",
+   "fieldtype": "Currency",
+   "label": "Previous Year Amount",
+   "permlevel": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "document_status",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Document Status"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-10-11 11:45:24.418768",
+ "modified_by": "Administrator",
+ "module": "Eastern Eindentor",
+ "name": "Issue Annual Carrier Contract",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

@@ -1,0 +1,67 @@
+{
+ "cards_label": "Logistics",
+ "category": "Modules",
+ "charts": [],
+ "creation": "2021-10-08 12:55:30.350290",
+ "developer_mode_only": 0,
+ "disable_user_customization": 0,
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "extends_another_page": 0,
+ "hide_custom": 0,
+ "icon": "stock",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "label": "Logistics",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Freight Contracts - Primary",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Appoint Carrier",
+   "link_to": "Carrier Appointment",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Issue Annual Contract",
+   "link_to": "Issue Annual Carrier Contract",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2021-10-13 21:13:29.076677",
+ "modified_by": "Administrator",
+ "module": "Eastern Eindentor",
+ "name": "Logistics",
+ "owner": "Administrator",
+ "pin_to_bottom": 0,
+ "pin_to_top": 0,
+ "shortcuts": [
+  {
+   "doc_view": "List",
+   "label": "Appoint Carrier",
+   "link_to": "Carrier Appointment",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "Issue Annual Contract",
+   "link_to": "Issue Annual Carrier Contract",
+   "type": "DocType"
+  }
+ ],
+ "shortcuts_label": ""
+}
